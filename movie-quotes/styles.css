@@ -1,0 +1,44 @@
+.action {
+    font-style: italic;
+    color: #FFD700;
+}
+
+body{
+    background-image: url('https://wallpapers.com/images/hd/poster-background-d7ct2dqc2q7h4np3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+    color:white;
+}
+
+.site_header {
+    font-family: 'Lobster', cursive;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section1, .section2, .section3 {
+    background-color: rgba(103, 107, 109, 0.9); 
+    border-radius: 20px; 
+    padding: 5px; 
+    margin-bottom: 20px;
+}
+
+/* lines between speakers */
+p { 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+    padding-bottom: 10px; 
+    margin-bottom: 5px; 
+}
+
+
+footer {
+    padding: 10px;
+}
