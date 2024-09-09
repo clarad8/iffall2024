@@ -14,6 +14,8 @@ body{
 
 .site_header {
     font-family: 'Lobster', cursive;
+    color:gold;
+    text-shadow: 5px 5px black;
 }
 
 .subtitle {
