@@ -1,0 +1,162 @@
+html {
+    background-color: rgb(243, 233, 220);
+}
+
+main {
+    margin: 0 5% 0 5%;
+}
+.bold {
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 190px;
+    background-image: url('header-image1.jpg');
+    background-size: cover;
+    color: white;
+    object-fit: cover;
+    margin: 0;
+}
+
+h1 {
+    color: brown;
+    font-family: "Kanit", sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(219, 149, 10);
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+li, p {
+    font-family: "Roboto Slab", serif;
+    line-height: 30px;;
+}
+
+.photoGallery {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.photoGallery img {
+    width: 30%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; 
+    border: 1px solid brown;
+}
+
+.ingredients img,
+.instructions img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    object-fit: contain;
+    border: 1px solid brown;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+a {
+    font-family: "Roboto Slab", serif;
+    line-height: 30px;
+    text-decoration: underline;
+    color: brown;
+    font-size: 18px;
+}
+
+.description li {
+    line-height: 3;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw; 
+    margin-bottom: 0;
+}
+
+.right-column, .left-column {
+    flex: 1;
+}
+
+.Equipments, .ingredients {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.Equipments li, .ingredients li {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.instructions li {
+    line-height: 2.5;
+}
+
+.instructions li::marker {
+    font-weight: bold;
+}
+
+.storing li{
+    line-height: 2.5;
+}
+
+.divisor {
+    border-top: 1px solid #000; 
+    margin: 20px 0; 
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; 
+    }
+
+    .Equipments {
+        margin-left: 0;
+        padding-left: 0;
+        order: 1;
+    }
+
+    .ingredients {
+        margin-left: 0;
+        padding-left: 0;
+        order: 2; 
+        margin-top: 20px; 
+    }
+
+    .instructions {
+        order: 3; 
+    }
+
+    .photoGallery {
+        flex-direction: column; 
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .photoGallery img {
+        width: 80%; 
+        margin-bottom: 40px;
+    }
+}
