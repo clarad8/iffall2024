@@ -1,0 +1,529 @@
+/* Homepage styling starts here */
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://st.hzcdn.com/simgs/9481a2e604255fa0_14-1670/_.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    transition: transform 0.5s ease;
+    position: relative;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.2em;
+}
+
+#home-link {
+    display: inline-block;
+    position: absolute;
+    padding-top: 15px;
+    left: 75px;
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+}
+
+#home-link1 {
+    display: inline-block;
+    position: absolute;
+    top: 3%;
+    left: 75px;
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+}
+
+#Logo:hover+#home-link {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.navbar-1 {
+    background-color: transparent;
+    width: 100%;
+    padding: 8px 0;
+    z-index: 1000;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    padding: 8px 0;
+    z-index: 1000;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.projects-link {
+    text-decoration: none;
+    color: #333;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projects-link:hover {
+    background-color: rgb(255, 222, 33);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    font-size: 10rem;
+    text-shadow:
+        -1px -1px 2px rgba(0, 0, 0, 0.7),
+        1px -1px 2px rgba(0, 0, 0, 0.7),
+        -1px 1px 2px rgba(0, 0, 0, 0.7),
+        1px 1px 2px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1000;
+}
+
+header h3 {
+    font-family: "Jura", sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 0;
+    text-shadow:
+        -1px -1px 2px rgba(0, 0, 0, 0.7),
+        1px -1px 2px rgba(0, 0, 0, 0.7),
+        -1px 1px 2px rgba(0, 0, 0, 0.7),
+        1px 1px 2px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 1000;
+}
+
+.about,
+.early-career,
+.education,
+.career {
+    background-image: url('https://commonedge.org/wp-content/uploads/2017/01/Elizabeth-Felicella-via-estoyale-1084x644.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1000;
+}
+
+.about {
+    background-image: url('https://parametric-architecture.com/wp-content/uploads/2024/06/Louis-Kahn-1.jpg');
+    object-fit: contain;
+}
+
+.early-career {
+    object-fit: contain;
+}
+
+.education {
+    background-image: url('https://cdn.prod.website-files.com/5f3525764f482b9bb77ebb9d/60952ac54506530205374321_Untitled%20design%20(1).png');
+    object-fit: contain;
+}
+
+.career {
+    background-image: url('https://archbhatia.wordpress.com/wp-content/uploads/2020/03/kahnj.jpg');
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+
+.white-box-right,
+.white-box-left {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 650px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.white-box-right h2 {
+    color: black;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.white-box-right p {
+    font-family: "Jura", sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    padding: 0 20px 20px 20px;
+    margin-top: 0;
+}
+
+.white-box-right::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-color: rgb(242, 39, 39);
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.white-box-left h2 {
+    color: black;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.white-box-left p {
+    font-family: "Jura", sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: right;
+    padding: 0 20px 20px 20px;
+    margin-top: 0;
+}
+
+.white-box-left::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-color: rgb(255, 222, 33);
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+
+#homepage-footer {
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1000;
+}
+
+.sliding-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scroll-behavior: smooth;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.sliding-gallery img {
+    width: 375px;
+    height: 325px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    filter: brightness(0.75);
+}
+
+.sliding-gallery img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    z-index: 1;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(54, 69, 79, 0.95);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+    height: 450px;
+    position: relative;
+    z-index: 1000;
+}
+
+.video a {
+    color: rgb(255, 222, 33);
+}
+
+.video iframe {
+    width: 600px;
+    height: 375px;
+    margin-right: 5%;
+}
+
+.video h2 {
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    padding-left: 15%;
+}
+
+@media (max-width: 800px) {
+    .video {
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        padding: 20px;
+        justify-content: flex-start;
+    }
+
+    .video h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .video iframe {
+        margin-right: 0;
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+
+.moving-text {
+    width: 100%;
+    overflow: hidden;
+}
+
+.moving-text p {
+    color: white;
+    font-family: "Jura", sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 24px;
+    animation: moveText 30s linear infinite;
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Homepage styling ends here */
+
+/* Navigation page styling for projects starts here  */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+    background-color: #36454f;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.projects img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border: white solid 4px;
+    border-radius: 50%;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    font-family: "Nunito Sans", sans-serif;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.nav:hover h2 {
+    opacity: 1;
+}
+
+.nav:hover img {
+    filter: brightness(70%);
+    box-shadow: 0 0 40px whitesmoke;
+    border-radius: 50%;
+    transition: filter 1s ease;
+}
+
+@media (max-width: 625px) {
+
+    .projects img {
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .nav-elements {
+        padding: 0 10px;
+    }
+}
+
+/* Navigation page styling for projects ends here  */
+
+/* Subpages styling starts here */
+.subpage-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #36454f;
+}
+
+.subpage-main {
+    padding-top: 75px;
+}
+
+.subpage-main img {
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
+.content h1 {
+    max-width: 50%;
+    text-align: left;
+    font-size: 36px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(255, 222, 33);
+    padding: 0 10%;
+}
+
+.white-box-right-subpage {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 650px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-top: 20px;
+}
+
+.white-box-right-subpage p {
+    font-family: "Jura", sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+    margin-top: 0;
+}
+
+.white-box-right-subpage::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-color: rgb(242, 39, 39);
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+@media (max-width: 800px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content h1 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .white-box-right-subpage {
+        max-width: 100%;
+    }
+
+    .white-box-right-subpage p {
+        padding: 20px;
+    }
+
+    .white-box-right-subpage::after {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Subpages styling ends here */
