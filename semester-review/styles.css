@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+  
+}
+header {
+    text-align: center;
+    color: black;
+    font-family: "Jura", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+header p {
+    font-size: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.project {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.project h2 {
+    font-family: "Jura", sans-serif;
+    font-size: 24px;
+    color: black;
+}
+.project p {
+    font-family: "Jura", sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+footer {
+    font-family: "Jura", sans-serif;
+    text-align: center;
+    margin: 40px 0;
+    color: black;
+}
